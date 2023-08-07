@@ -38,6 +38,7 @@ nav {
   overflow-x: hidden;
   width: 100%;
   position: fixed;
+  z-index: 9999999999;
 }
 
 nav.active {
@@ -554,7 +555,7 @@ img{
 .menu__container{
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  z-index: -1;
+  
 }
 
 .menu__content{
