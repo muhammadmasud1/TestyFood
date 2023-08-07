@@ -791,3 +791,8 @@ img{
         height: 640px;
     }
 }
+@media (max-width:991px) {
+ nav {
+  margin: -50px 0;
+ }
+}
